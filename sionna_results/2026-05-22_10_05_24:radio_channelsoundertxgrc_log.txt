@@ -1,0 +1,9 @@
+[2026-05-22 10:05:24.963900] [INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.9.0.0-aerpaw
+[2026-05-22 10:05:25.044626] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-05-22 10:05:25.549858] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3320.000000 MHz is allowed for TX operation!
+[2026-05-22 10:05:25.555366] [INFO] [V-USRP-TX]  Sample Rate is set to 2e+06 Sps
+[2026-05-22 10:05:25.555573] [INFO] [MULTI_USRP]     1) catch time transition at pps edge
+[2026-05-22 10:05:26.163697] [INFO] [MULTI_USRP]     2) set times next pps (synchronously)
+[2026-05-22 10:05:26.163741] [INFO] [VUSRP] PPS Set Requested 0
+[2026-05-22 10:05:27.174739] [INFO] [PORT-TX] Port is updated to 11029
+[2026-05-22 10:05:27.174783] [INFO] [PORT-TX] Port is updated to 11029

@@ -1,0 +1,9 @@
+[2026-05-22 10:22:39.907182] Reading .plan file...
+[2026-05-22 10:22:39.907313] [aerpawlib] INFO: the user script has attempted to use AERPAW platform functionality without being in the AERPAW environment
+[2026-05-22 10:22:39.907475] Building CommandSequence...
+[2026-05-22 10:22:39.907694] Uploading .plan file...
+[2026-05-22 10:22:41.810155] .plan file uploaded!
+[2026-05-22 10:22:42.822959] Waypoint 1
+[2026-05-22 10:22:42.823069] [aerpawlib] Guided command attempted. Waiting for safety pilot to arm
+[2026-05-22 10:22:43.333675] [aerpawlib] Guided command attempted. Waiting for safety pilot to arm
+[2026-05-22 10:23:23.951042] Waypoint 2
