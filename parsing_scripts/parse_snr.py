@@ -87,29 +87,29 @@ if __name__ == '__main__':
     # ]
 
     base_paths = [
-        "../sionna_results",
-        "../3gpp_results"
+        "../sionna_results/experiment_2",
+        "../3gpp_results/experiment_2"
     ]
 
     bounds = [
-        [36388000, 36497510],
-        [37478000, 37513730]
+        [0, 1000000000000000],
+        [0, 100000000000000000]
     ]
 
-    r1 = bounds[0][1] - bounds[0][0]
-    r2 = bounds[1][1] - bounds[1][0]
-    scale = r1 / r2
-    print(scale)
+    # r1 = bounds[0][1] - bounds[0][0]
+    # r2 = bounds[1][1] - bounds[1][0]
+    # scale = r1 / r2
+    # print(scale)
 
     snrs = []
     for i in range(2):
         snrs.append(np.array(parsePositionAndSNR(base_paths[i], bounds[i])))
 
-    old_indices = np.arange(len(snrs[1]))
-    new_indices = np.linspace(0, len(snrs[1]) - 1, len(snrs[0]))
+    # old_indices = np.arange(len(snrs[1]))
+    # new_indices = np.linspace(0, len(snrs[1]) - 1, len(snrs[0]))
 
-    # Interpolate to the new length
-    snrs[1] = np.interp(new_indices, old_indices, snrs[1])
+    # # Interpolate to the new length
+    # snrs[1] = np.interp(new_indices, old_indices, snrs[1])
 
     plt.plot(snrs[0], color="green", label="Sionna SNR")
     plt.plot(snrs[1], color="blue", label="3GPP SNR")
